@@ -399,12 +399,12 @@ ul li a:hover{
 	background-position: center;
 }
 .About-me .About{
-	margin: 150px 0 0 200px;
+	margin: 80px 100px 0 0  ;
 	padding: 20px;
 	height: 200px;
 	width: 400px;
-	background: red;
-	float: left;
+	background: rgba(0, 0, 0, 0.555);
+	float: right;
 }
 .About-me .About h1{
 	text-align: center;
@@ -415,9 +415,9 @@ ul li a:hover{
 .About-me .my-pic{
 	height:420px;
 	width: 320px;
-	float: right;
+	float: left;
+	margin: 100px 0 0 100px;
 	background: salmon;
-	margin: 80px 100px 0 0  ;
 	border-radius: 50px 0 50px 0;
 
 }
@@ -425,8 +425,8 @@ ul li a:hover{
 	height: 400px;
 	width: 300px;
 	border-radius: 50px 0 50px 0;
-	margin-top: 9px;
-	margin-left: 9px;
-	border: 5px 0 0 0 solid seagreen;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 5px  solid rgb(255, 255, 255);
 
 }
