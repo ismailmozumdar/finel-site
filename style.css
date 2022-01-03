@@ -372,12 +372,21 @@ ul li a:hover{
  height: auto;
  background: salmon;
  padding: 20px 0 0 0 ;
+ display: flex;
 }
-.next h1{
+.next .text h1{
 	color: seagreen;
 	text-align: center;
 	
 }
-.next p{
+.next .text p{
 	padding: 20px;
+}
+ .text{
+	height: 200px;
+	width: 400px;
+	background: crimson;
+	margin: 20px;
+	padding: 10px;
+	text-align: justify;
 }
