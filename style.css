@@ -399,24 +399,32 @@ ul li a:hover{
 	background-position: center;
 }
 .About-me .About{
-	margin: 80px 100px 0 0  ;
+	margin:200px 100px 0 0  ;
 	padding: 20px;
 	height: 200px;
 	width: 400px;
 	background: rgba(0, 0, 0, 0.555);
 	float: right;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top:5px solid white;
+	border-left:2px solid white;
+	border-right:2px solid white;
 }
 .About-me .About h1{
 	text-align: center;
+	color: salmon;
 }
 .About-me .About p{
 	text-align: justify;
+	color: white;
+	
 }
 .About-me .my-pic{
 	height:420px;
 	width: 320px;
 	float: left;
-	margin: 100px 0 0 100px;
+	margin: 100px 0 0 150px;
 	background: salmon;
 	border-radius: 50px 0 50px 0;
 
