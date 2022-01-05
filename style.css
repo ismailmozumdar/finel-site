@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	font-family: 'Poppins', sans-serif;
+}
 .main{
 	width: 100%;
 	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
@@ -116,7 +119,6 @@ ul li a:hover{
 	line-height:20px;
 	text-align: justify;
 }
-
 .contant h1{
 	font-family: 'Times New Roman';
 	font-size: 50px;
@@ -135,7 +137,6 @@ ul li a:hover{
 	border-radius: 10px;
 	cursor:pointer;
 	transition: 0.5s;
-
 }
 .contant .join a{
 	text-decoration: none;
@@ -188,7 +189,6 @@ ul li a:hover{
 
 .frome input:focus{
 	outline: none;
-	
 }
 ::placeholder{
 	color: #00ffe7;
@@ -233,7 +233,6 @@ ul li a:hover{
 	position: relative;
 	font-family: montserrat;
 }
-
 .section::before{
 	content: '';
 	position: absolute;
@@ -256,7 +255,6 @@ ul li a:hover{
 	justify-content: space-evenly;
 	transition: all 1s ease;
 }
-
 #two:checked ~ .main-cards{
 	 margin-left: -100%;
 }
@@ -272,7 +270,6 @@ ul li a:hover{
 	padding: 30px 0;
 	border-radius: 20px;
 }
-
 .cards .card .content{
 	display: flex;
 	flex-direction: column;
@@ -337,13 +334,10 @@ ul li a:hover{
 	margin: 0 5px;
 	border-radius: 20px;
 	transition: all 0.5s ease;
-
 }
-
 .button label.active{
 	width: 35px;
 }
-
 #one:checked ~ .button label.one{
 	width: 35px;
 }
@@ -369,26 +363,30 @@ ul li a:hover{
 }
 .next{
  width: 100%;
- height: auto;
  background: salmon;
  padding: 20px 0 0 0 ;
  display: flex;
 }
 .next .text h1{
-	color: seagreen;
+	color: rgb(0, 255, 255);
 	text-align: center;
-	
 }
 .next .text p{
 	padding: 20px;
 }
  .text{
-	height: 200px;
+	 background-image: url(images/exp-bg.png);
+	 background-repeat: no-repeat;
+	 background-position: left;
+	height: auto;
 	width: 400px;
-	background: crimson;
+	box-shadow: 10px 10px 40px gray;
 	margin: 20px;
 	padding: 10px;
 	text-align: justify;
+	border-left:5px solid ;
+	border-image:linear-gradient(rgb(0, 255, 128), rgb(255, 208, 0)) ;
+	border-image-slice:1;
 }
 .About-me{
 	width: auto;
@@ -417,8 +415,7 @@ ul li a:hover{
 }
 .About-me .About p{
 	text-align: justify;
-	color: white;
-	
+	color: white;	
 }
 .About-me .my-pic{
 	height:420px;
@@ -427,7 +424,6 @@ ul li a:hover{
 	margin: 100px 0 0 150px;
 	background: salmon;
 	border-radius: 50px 0 50px 0;
-
 }
 .About-me .my-pic img{
 	height: 400px;
@@ -436,5 +432,11 @@ ul li a:hover{
 	margin-top: 10px;
 	margin-left: 10px;
 	border: 5px  solid rgb(255, 255, 255);
+}
+footer{
+	text-align: center;
+}
+footer p{
+	margin-top: 100px;
 
 }
